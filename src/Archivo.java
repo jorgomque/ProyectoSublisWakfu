@@ -197,7 +197,77 @@ public class Archivo {
         nuevaSubli("Ruine cyclique 2", "rrr", "Daños indirectos", "+20 % daños indirectos en turnos pares", "Stèle Cité interdite (Mazmorra 3 jugadores nivel 185)");
         nuevaSubli("Contre-attaque 6", "rvr", "Daños indirectos", "Recibe daño cuerpo a cuerpo: +60 % del nivel en daño de luz (1 vez por turno)", "Brèche de Sufokia (nivel mínimo 66)");
         nuevaSubli("Valeur ajoutée 4", "bvv", "Daños indirectos", "Por cada daño indirecto: +8 % daño indirecto y -8 % directo (máx 40 %), reinicio al inicio del turno", "???");
+        //  Mono elemental
+        nuevaSubli("Brûlure secondaire 4", "rrv", "Mono fuego", "Lanzar hechizo agua/tierra/aire: +8 % daños al siguiente hechizo de fuego (máx 30)", "Stèle Enutrosor (Mazmorra nivel 155)");
+        nuevaSubli("Gel secondaire 4", "vvb", "Mono agua", "Lanzar hechizo fuego/tierra/aire: +8 % daños al siguiente hechizo de agua (máx 30)", "Stèle Enutrosor (Mazmorra nivel 155)");
+        nuevaSubli("Tellurisme secondaire 4", "bbr", "Mono tierra", "Lanzar hechizo fuego/agua/aire: +8 % daños al siguiente hechizo de tierra (máx 30)", "Stèle Blopéra (Mazmorra nivel 155)");
+        nuevaSubli("Ventilation secondaire 4", "rvv", "Mono aire", "Lanzar hechizo fuego/agua/tierra: +8 % daños al siguiente hechizo de aire (máx 30)", "Stèle Blopéra (Mazmorra nivel 155)");
+        nuevaSubli("Brûlure 4", "rrb", "Mono fuego", "+16 % daños fuego", "Stèle Blopéra (Mazmorra nivel 155)");
+        nuevaSubli("Gel 4", "bbv", "Mono agua", "+16 % daños agua", "Stèle Blopéra (Mazmorra nivel 155)");
+        nuevaSubli("Tellurisme 4", "vvr", "Mono tierra", "+16 % daños tierra", "Stèle Enutrosor (Mazmorra nivel 155)");
+        nuevaSubli("Ventilation 4", "rbv", "Mono aire", "+16 % daños aire", "Stèle Enutrosor (Mazmorra nivel 155)");
+        //Brecha
+        nuevaSubli("Retour PM 4", "brv", "Brèches", "+2 PM al matar un enemigo (máx 2 por turno)", "Stèle Source du mal (Mazmorra nivel 155)");
+        nuevaSubli("Retour vital 2", "vrv", "Brèches", "Cura 20 % de PV perdidos al matar un enemigo (máx 2 por turno)", "Brèche de Tainéla (nivel mínimo 21)");
+        nuevaSubli("Retour PA 4", "brv", "Brèches", "+2 PA al matar un enemigo (máx 2 por turno)", "Stèle Crête Givrée (Mazmorra nivel 200)");
+        nuevaSubli("Retour enflammé 2", "rrv", "Brèches", "100 % del nivel en enflammé al matar un enemigo (1 vez por turno)", "Brèche de Bonta (nivel mínimo 141)");
+        nuevaSubli("Retour d’armure 4", "brr", "Brèches", "+10 % de los PV máx como armadura al matar un enemigo (máx 2 veces por turno)", "Stèle Srambad (Mazmorra nivel 155)");
+        nuevaSubli("Influence lente 4", "rvv", "Brèches", "+4 % CC por turno (máx 30)", "Stèle E-Bou (Mazmorra nivel 170)");
+        nuevaSubli("Dérobade lente 4", "rrv", "Brèches", "+6 % de parada por turno (máx 40)", "Stèle Cité interdite (Mazmorra 3 jugadores nivel 185)");
+        nuevaSubli("Loup solitaire 4", "rbv", "Brèches", "+8 % de daños si no hay aliados entre 1 y 4 casillas", "Stèle d'intervention Aguabrial (2) (Mazmorra Volcán Or'Hodruin nivel 200)");
+        nuevaSubli("Expert des coups critiques 4", "bbv", "Brèches", "Si haces un CC al final del turno: +8 % de PV faltantes en curación", "Stèle Crête Givrée (Mazmorra nivel 200)");
+        nuevaSubli("Wakfu Berzerk 4", "bbr", "Brèches", "PW ≤ 50 % al inicio del turno: +12 % daños críticos, +400 % del nivel en armadura", "Brèche Ultime Frigost (nivel mínimo 111)");
+        // Sin dominio secundario
+        nuevaSubli("Ambition 6", "vbr", "Sin secundaria", "Inicio del turno 1, si maestrías secundarias ≤ 0: +30 % CC", "Brèche de la Shukrute (nivel 216 mínimo)");
+        nuevaSubli("Abandon 6", "vrb", "Sin secundaria", "+3 PW, +3 PO, -30 % armadura dada y recibida (si secundaria = 0)", "Brèche d'Amakna (nivel 111 mínimo)");
+        nuevaSubli("Neutralité 4", "bvr", "Sin secundaria", "Inicio del turno 1, si maestrías secundarias ≤ 0: +32 % daños infligidos", "Brèche d'Osamosa (nivel 201 mínimo)");
+        nuevaSubli("Prétention 6", "vbv", "Sin secundaria", "Inicio del turno 1, si maestría secundaria ≤ 0: +30 % parada", "Brèche ???");
+        // Anti armor
+        nuevaSubli("Manie 4", "brv", "Anti-armadura", "Daño cuerpo a cuerpo quita 200 % del nivel en armadura, -12 % armadura recibida", "Brèche Moon (nivel mínimo 171)");
+        nuevaSubli("Témérité 4", "bbv", "Anti-armadura", "Si retiras toda la armadura de un objetivo: +12 % daños (máx 30 % durante el turno)", "Stèle Abraknyde (Mazmorra nivel 140)");
+        nuevaSubli("Tabass’Carapace 4", "rvb", "Anti-armadura", "+24 % de daños a objetivos con armadura", "Stèle Cagnardeurs (Mazmorra nivel 215)");
+        nuevaSubli("Rupture violente 4", "vvr", "Anti-armadura", "Si retiras toda la armadura: infliges 40 % del nivel como daño de luz", "Stèle Srambad (Mazmorra nivel 155)");
+        nuevaSubli("Rupture PA 4", "bbb", "Anti-armadura", "Si retiras toda la armadura: +2 PA (máx 2 veces por turno)", "Stèle Abraknyde (Mazmorra nivel 140)");
 
+        // VOL DE VIE
+        nuevaSubli("Puits de vitalité 6", "vrv", "Vol de vie", "augmente de 30 % les vols de vie réalisés", "Stèle Sabléoptères (Donjon lvl 155)");
+        nuevaSubli("Folie Vampirique 4", "rvr", "Vol de vie", "-20% soins reçus mais vole 16% des dégâts infligés sur les dégâts infligés en diagonale", "Stèle Trouffe Salée (Donjon lvl 140)");
+
+// SOINS
+        nuevaSubli("Altruisme 6", "bvr", "Soins", "12 % soins réalisés sur un allié en ligne et à distance", "Brèche Moon (lvl 171 minimum)");
+        nuevaSubli("Expert des coups critiques 4", "bvv", "Soins", "En fin de tour, si un coup critique a été effectué, +8 % des pv manquants du lanceur", "Stèle Crête Givrée (Donjon lvl 200)");
+        nuevaSubli("Intégrité 2", "bbr", "Soins", "En soignant un allié, si cet allié à moins de 15 % de pv : +14 % des pv max de la cible sont soignés (supplémentaire)", "Stèle d'intervention Aguabrial (2) (Donjon Blérox lvl 200)");
+        nuevaSubli("Nature 6", "vrb", "Soins", "12 % soins réalisés sur un allié au contact d’un autre allié", "Brèche de Sufokia (lvl 66 minimum)");
+        nuevaSubli("Temporisation 4", "vrb", "Soins", "En début de tour, si aucun PW n'a été utilisé au tour précédent : +16% de dommage infligé et +16% de soins réalisés", "Brèche Ultime Shukrute (lvl 216 minimum)");
+        nuevaSubli("Secret de la vie 2", "vbb", "Soins", "Au début du combat : +10 % soins réalisés, réduit la maîtrise soin à 0", "Stèle d'intervention Aguabrial (2) (Donjon Dragoeufs lvl 200)");
+        nuevaSubli("Courage 6", "brb", "Soins", "+12 % dommages et soins non critiques infligés -12 % dommages et soins critiques infligés", "Brèche Ultime Frigost (lvl 111 minimum)");
+        nuevaSubli("Revigoration 4", "vbr", "Soins", "-10 % soins réalisés, le porteur de l’état est soigné de 16 % des soins réalisés sur ses alliés", "Brèche d'Amakna (lvl 111 minimum)");
+        nuevaSubli("Précaution 4", "rvr", "Soins", "En terminant son tour avec moins de 50 % PV : soins de 20 % des pv manquants", "Brèche d'Amakna (lvl 111 minimum)");
+        nuevaSubli("Accumulation 4", "vvb", "Soins", "-20% soins réalisés mais chaque tour passé sans soigner : +20% soins réalisés (max 40%)", "Stèle Compost du grand Potofeu (Donjon lvl 140)");
+        nuevaSubli("Dernier soin 6", "vrv", "Soins", "En tombant sous 20% PV (1 fois par combat) : +30% PV max", "Stèle Noirespore (Donjon lvl ?)");
+        nuevaSubli("Arcanes 6", "brb", "Soins", "Si le porteur de l’état ne possède pas d’armure en fin de tour : +300 % du niveau en armure", "Brèche de Tainéla (lvl 21 minimum)");
+        nuevaSubli("Dernier souffle 6", "vbr", "Soins", "Lorsque le porteur commence son tour en dessous de 20 % de PV : +18 % de dégâts infligés +300 % du niveau en armure", "Brèche Ultime Zinit (lvl 201 minimum)");
+        nuevaSubli("longueur d’armure 6", "rbv", "Soins", "+24 % armure donnée sur un allié en ligne et à distance", "Brèche de Bonta (lvl 141 minimum)");
+        nuevaSubli("Prospérité 4", "vrb", "Soins", "+12 % aux bonus de caractéristiques reçues (maîtrises, résistances, armure) lancés par un allié", "Stèle Source du mal (Donjon lvl 155)");
+        nuevaSubli("Wakfu Berzerk 4", "bbr", "Soins", "Si le porteur de l’état commence son tour avec 50 % ou moins de ses PW : +12 % dégâts crit, +400 % du niveau en armure", "Brèche Ultime Frigost (lvl 111 minimum)");
+        nuevaSubli("Ecailles de lune 6", "vbr", "Soins", "+18 % armure reçue", "Stèle Sanctuaire des Dragoeufs (Donjon lvl 200)");
+        nuevaSubli("Enveloppe rocheuse 6", "rbb", "Soins", "+18 % armure donnée", "Stèle Abraknyde (Donjon lvl 140)");
+        nuevaSubli("Muraille 4", "rbv", "Soins", "En début de combat, 600 % du niveau en armure", "Stèle Tropikes (Donjon lvl 185)");
+        nuevaSubli("Topologie 3", "bvb", "Soins", "Au début du combat, toute l’esquive du porteur est convertie en armure avec un ratio de 1 pour 3 (esquive perdue)", "Stèle Cité interdite (Donjon 3 joueurs lvl 185)");
+        nuevaSubli("Carapace sanguine 6", "brr", "Soins", "En début de tour, convertit 60 % des PV courants en Armure", "Stèle Trouffe Salée (Donjon lvl 140)");
+        nuevaSubli("Retour d’armure 4", "brr", "Soins", "En tuant un ennemi : 10 % des PV max en Armure (2 activations par tour)", "Stèle Srambad (Donjon lvl 155)");
+        nuevaSubli("Interposition 6", "bvv", "Soins", "En taclant un ennemi : +300% du niveau en armure", "Stèle Plantigardes (Donjon lvl 215)");
+        nuevaSubli("Allocentrisme 4", "vvv", "Soins", "+20% d’armure donnée si le porteur ne possède pas d’armure", "Stèle Toundrasoirs (Donjon lvl 215)");
+        nuevaSubli("Dernière Armure 6", "rbr", "Soins", "En tombant sous 20% PV (1 fois par combat) : +30% de PV max en armure", "Stèle Srambad (Donjon lvl 155)");
+
+// RÉDUCTION DE DÉGÂTS SUBIS
+        nuevaSubli("Barrière mêlée 4", "vvb", "Réduction de dégâts subis", "Réduit les dommages mêlée subis de 50 % du niveau, 8 fois par tour", "Stèle Tropikes (Donjon lvl 185)");
+        nuevaSubli("Barrière distance 4", "vvr", "Réduction de dégâts subis", "Réduit les dommages distance subis de 50 % du niveau, 8 fois par tour", "Stèle Kannibouls (Donjon lvl 185)");
+        nuevaSubli("Arme solide 2", "bbb", "Réduction de dégâts subis", "En infligeant des dégâts avec une arme, l’ennemi touché diminue ses dégâts de 10 % sur la cible ayant l’effet (le porteur de l’état doit posséder un bouclier)", "Brèche de Sufokia (lvl 66 minimum)");
+        nuevaSubli("Art du cachement 4", "bbb", "Réduction de dégâts subis", "-24% dommages reçus hors ligne de vue, +12% dommages reçus lorsque le porteur est en ligne de vue", "Stèle Crustargneux (Donjon lvl 215)");
+        nuevaSubli("Volte face 2", "bbv", "Réduction de dégâts subis", "Lorsque le porteur de l’état subit des dommages au contact : se retourne vers l’attaquant (une fois par tour)", "Brèche Ultime Frigost (lvl 111 minimum)");
+        nuevaSubli("Détermination 4", "vvr", "Réduction de dégâts subis", "-30 % dommages indirects reçus", "Stèle E-Bou (Donjon lvl 170)");
+        nuevaSubli("Solidité 2", "rvr", "Réduction de dégâts subis", "Réduit les dommages directs reçus supérieurs à 20 % des PV max de 400 % du niveau (une fois par tour de table)", "Stèle Palais Lenald (Donjon lvl 140)");
 
 
     }
