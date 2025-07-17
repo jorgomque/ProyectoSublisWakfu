@@ -5,13 +5,12 @@ public class Main {
         String combinacionUsuario;
         Archivo archivo1 = new Archivo();
         Archivo.cargarSublis();
-
+        System.out.println("Introduce una combinacion");
         do {
             combinacionUsuario = preguntarSubli();
-        }while (combinacionUsuario != null);
+        }while (combinacionUsuario == null);
 
-
-
+        Archivo.buscarSubli(combinacionUsuario);
     }
     static String preguntarSubli(){
         String combinacionUsuario;
@@ -31,7 +30,7 @@ public class Main {
                     throw new RuntimeException();
                 }
             }
-            return preguntarSubli();
+            return combinacionUsuario;
         }
         catch (RuntimeException e){
 

@@ -10,6 +10,26 @@ public class Archivo {
         lista.add(new Sublimacion(  nombre,  combinacion,  categoria, efecto, dropZone));
     }
 
+    public static void buscarSubli(String combinacionUsuario){
+        if (combinacionUsuario.length() == 3){
+            for (Sublimacion sublimacion : lista) {
+                if (combinacionUsuario.equalsIgnoreCase(sublimacion.getCombinacion())) {
+                    sublimacion.imprimir();
+                }
+            }
+        }
+        if (combinacionUsuario.length() == 4){
+            for (Sublimacion sublimacion : lista) {
+                if (combinacionUsuario.substring(0,2).equalsIgnoreCase(sublimacion.getCombinacion())) {
+                    sublimacion.imprimir();
+                }
+                if (combinacionUsuario.substring(1,3).equalsIgnoreCase(sublimacion.getCombinacion())) {
+                    sublimacion.imprimir();
+                }
+            }
+        }
+    }
+
 
     public static void cargarSublis() {
         // Ganancia de PA

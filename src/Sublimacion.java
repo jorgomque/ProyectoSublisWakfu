@@ -58,4 +58,7 @@ public class Sublimacion {
         return "Nombre de la subli: " + getNombre() + " combinacion de colores: "
                 + getCombinacion() + " efecto: " + getEfecto() + " categoria: " + getCategoria() + " se dropea: " + getDropZone();
     }
+    public void imprimir(){
+        System.out.println(this);
+    }
 }
